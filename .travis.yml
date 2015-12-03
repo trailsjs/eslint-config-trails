@@ -9,7 +9,7 @@ notifications:
 
 sudo: false
 
-before_script:
+install:
   - npm link
 
 deploy:
