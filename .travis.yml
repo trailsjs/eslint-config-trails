@@ -9,6 +9,9 @@ notifications:
 
 sudo: false
 
+before_script:
+  - npm link
+
 deploy:
   provider: npm
   email: hello@trailsjs.io
