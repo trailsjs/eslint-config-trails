@@ -6,7 +6,8 @@ module.exports = {
     'arrowFunctions': true,
     'blockBindings': true,
     'classes': true,
-    'destructuring': true,
+    'defaultParams': true,
+    'destructuring': false,
     'forOf': true,
     'generators': false,
     'modules': true,
@@ -14,6 +15,8 @@ module.exports = {
     'objectLiteralDuplicateProperties': false,
     'objectLiteralShorthandMethods': true,
     'objectLiteralShorthandProperties': true,
+    'restParams': false,
+    'spread': false,
     'superInFunctions': true,
     'templateStrings': true,
     'jsx': true
