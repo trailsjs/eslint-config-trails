@@ -9,8 +9,8 @@ notifications:
 
 sudo: false
 
-install:
-  - npm link
+before_install:
+  - npm install eslint
 
 deploy:
   provider: npm
