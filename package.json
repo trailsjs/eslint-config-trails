@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-trails",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Trails.js eslint config",
   "main": "index.js",
   "scripts": {
