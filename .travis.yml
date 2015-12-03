@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '4.0'
+  - '4.2'
+  - '5.0'
+
+notifications:
+  emails: false
+
+sudo: false
