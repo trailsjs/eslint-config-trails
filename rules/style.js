@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     // enforce one true brace style
-    'brace-style': [2, '1tbs', {'allowSingleLine': true }],
+    'brace-style': [2, 'stroustrup', {'allowSingleLine': true }],
     // require camel case names
     'camelcase': [2, {'properties': 'never'}],
     // enforce one true comma style
