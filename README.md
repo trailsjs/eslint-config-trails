@@ -44,9 +44,9 @@ Add to your project's `.eslintrc` file using the ESLint `extends` attribute:
 ## License
 [MIT](https://github.com/trailsjs/eslint-config-trails/blob/master/LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/trailpack-core.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/trailpack-core
-[ci-image]: https://img.shields.io/travis/trailsjs/trailpack-core/master.svg?style=flat-square
-[ci-url]: https://travis-ci.org/trailsjs/trailpack-core
-[daviddm-image]: http://img.shields.io/david/trailsjs/trailpack-core.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/trailsjs/trailpack-core
+[npm-image]: https://img.shields.io/npm/v/eslint-config-trails.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/eslint-config-trails
+[ci-image]: https://img.shields.io/travis/trailsjs/eslint-config-trails/master.svg?style=flat-square
+[ci-url]: https://travis-ci.org/trailsjs/eslint-config-trails
+[daviddm-image]: http://img.shields.io/david/trailsjs/eslint-config-trails.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/trailsjs/eslint-config-trails
