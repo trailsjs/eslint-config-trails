@@ -1,4 +1,3 @@
 {
-  "extends": "trails",
-  "rules": {}
+  "extends": "eslint:recommended"
 }
