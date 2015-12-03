@@ -6,6 +6,6 @@ module.exports = {
     'semi': 0,
     'new-cap': [0, {
       'capIsNew': true
-    }],
+    }]
   }
 }

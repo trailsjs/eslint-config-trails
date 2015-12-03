@@ -21,7 +21,7 @@ module.exports = {
     // disallow dangling underscores in identifiers
     'no-underscore-dangle': 2,
     // disallow declaration of variables that are not used in the code
-    'no-unused-vars': [2, {'vars': 'local', 'args': 'after-used'}],
+    'no-unused-vars': [2, {'vars': 'local', 'args': 'none'}],
     // specify whether double or single quotes should be used
     'quotes': [2, 'single', 'avoid-escape'],
     // enforce spacing before and after semicolons

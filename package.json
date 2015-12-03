@@ -4,6 +4,7 @@
   "description": "Trails.js eslint config",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/lynnaloo/eslint-config-trails/issues"
   },
-  "homepage": "https://github.com/lynnaloo/eslint-config-trails"
+  "homepage": "https://github.com/lynnaloo/eslint-config-trails",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
 }

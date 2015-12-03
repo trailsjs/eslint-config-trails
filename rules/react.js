@@ -1,7 +1,5 @@
 module.exports = {
-  'plugins': [
-    'react'
-  ],
+  'plugins': ['react'],
   'ecmaFeatures': {
     'jsx': true
   },
