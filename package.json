@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lynnaloo/eslint-config-trails.git"
+    "url": "https://github.com/trailsjs/eslint-config-trails.git"
   },
   "keywords": [
     "eslint",
@@ -18,12 +18,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lynnaloo/eslint-config-trails/issues"
+    "url": "https://github.com/trailsjs/eslint-config-trails/issues"
   },
-  "homepage": "https://github.com/lynnaloo/eslint-config-trails",
-  "devDependencies": {
-    "eslint": "^1.10.3"
-  },
+  "homepage": "https://github.com/trailsjs/eslint-config-trails",
   "peerDependencies": {
     "eslint": ">=1.0.0"
   }
