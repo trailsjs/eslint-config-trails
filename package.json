@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-trails",
+  "version": "0.0.3",
+  "description": "Trails.js eslint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trailsjs/eslint-config-trails.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "trails"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trailsjs/eslint-config-trails/issues"
+  },
+  "homepage": "https://github.com/trailsjs/eslint-config-trails",
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
+}

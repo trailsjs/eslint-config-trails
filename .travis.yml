@@ -1,0 +1,23 @@
+language: node_js
+node_js:
+- '4.0'
+- '4.2'
+- '5.0'
+
+notifications:
+  emails: false
+
+sudo: false
+
+install:
+  - npm link
+
+deploy:
+  provider: npm
+  email: hello@trailsjs.io
+  api_key:
+    secure: EL162GGC0z0cx8RFDbqqB6BHYbKwJIojJz2gGK3mbUw4u+EqcwA9JMaULrck6QMT5JuVvZHXvWibG8DkVd47JK4A1xOCsnSNwGO4ExbonlDK99K6LZXcK7N5cg1fv8U2MycRoRRLwimaGfEumemdo34tz3beQYy1PQnB8IjlE++0xXYZ6VCV9f8QOdlKo17ZL1qyr69/nFw2TZXiHQ5lZxW5aT2TmRCiuGkfbQDGsihCyVIinYZEb4k8onwnFT7kIrK7oaxXVV/BOHp4vACeKGmdOndbQSYHakhLYZxg96AbzNra/xT9y+PjGcPuymtZzgDNv0+F8aTv/ta7YEvpEZNks9xTA0oTnL8VViUQcMDMOHO4p9PIgVgtHh4jIJk8dltwW7scoPYTHQGLD3RJRpvugRPGjMxdogFZ3LaDZ3bqU4dyKHaak5iknIGeNUX6dicdrx+2cfvJ9b1uktYq33Wv7T3g4tybal3PNRp6KYDm7/u1zrLr9BRUdajAv+tf2it8jFQ6fT08vnyjKCRlgxE2F+jkF6lMwgNfnpoTgYS0XnnqswBuqxOfujs4D9nvFdcsU6QQ8CBOhBmFxC4dzkura8H1Tu4c3kLQ9/MKBzXfEqZJl+CF+3+QVP73AEGiAC75xw6qagfrXCGCSFMulwmhYk+3l04Erg3MQJ51ew4=
+  on:
+    tags: true
+    repo: trailsjs/eslint-config-trails
+    all_branches: true
