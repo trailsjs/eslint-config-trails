@@ -1,6 +1,7 @@
 # eslint-config-trails
 :shipit: Trails ESLint Configuration
 
+[![Gitter][gitter-image]][gitter-url]
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
@@ -50,3 +51,5 @@ Add to your project's `.eslintrc` file using the ESLint `extends` attribute:
 [ci-url]: https://travis-ci.org/trailsjs/eslint-config-trails
 [daviddm-image]: http://img.shields.io/david/trailsjs/eslint-config-trails.svg?style=flat-square
 [daviddm-url]: https://david-dm.org/trailsjs/eslint-config-trails
+[gitter-image]: http://img.shields.io/badge/+%20GITTER-JOIN%20CHAT%20%E2%86%92-1DCE73.svg?style=flat-square
+[gitter-url]: https://gitter.im/trailsjs/trails
