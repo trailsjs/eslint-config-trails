@@ -16,9 +16,11 @@ The default ESLint configuration lints for ES6.
 
 Install the default configuration package and `eslint` dependency:
 
-`npm install --save-dev eslint-config-trails eslint`
+```
+npm install --save-dev eslint-config-trails eslint
+```
 
-Add to your project's `.eslintrc` file using the ESLint `extends` attribute:
+Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
 
 ```json
 {
@@ -32,9 +34,11 @@ The React.js eslint configuration lints for both ES6 and React.js.
 
 Install the React.js configuration package and `eslint` dependency:
 
-`npm install --save-dev eslint-config-trails eslint-plugin-react eslint`
+```
+npm install --save-dev eslint-config-trails eslint-plugin-react eslint
+```
 
-Add to your project's `.eslintrc` file using the ESLint `extends` attribute:
+Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
 
 ```json
 {
