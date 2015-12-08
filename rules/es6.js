@@ -16,7 +16,7 @@ module.exports = {
     'objectLiteralShorthandMethods': true,
     'objectLiteralShorthandProperties': true,
     'restParams': false,
-    'spread': true,
+    'spread': false,
     'superInFunctions': true,
     'templateStrings': true,
     'jsx': true
