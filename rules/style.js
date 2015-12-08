@@ -27,6 +27,8 @@ module.exports = {
     // enforce spacing before and after semicolons
     'semi-spacing': [2, {'before': false, 'after': true}],
     // require spaces around operators
-    'space-infix-ops': 2
+    'space-infix-ops': 2,
+    // warn when line length is greater than 80 characters
+    'max-length': [1, 80, 2]
   }
 }
