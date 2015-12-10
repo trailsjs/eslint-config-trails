@@ -29,6 +29,6 @@ module.exports = {
     // require spaces around operators
     'space-infix-ops': 2,
     // warn when line length is greater than 80 characters
-    'max-length': [1, 80, 2]
+    'max-len': [1, 80, 2]
   }
 }
