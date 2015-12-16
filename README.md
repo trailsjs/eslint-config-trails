@@ -46,6 +46,18 @@ Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.js
 }
 ```
 
+### Testing
+
+A module for test-specific rules is available.
+
+Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
+
+```json
+{
+  "extends": "trails/test"
+}
+```
+
 ## License
 [MIT](https://github.com/trailsjs/eslint-config-trails/blob/master/LICENSE)
 
