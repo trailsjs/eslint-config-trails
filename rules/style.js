@@ -8,8 +8,6 @@ module.exports = {
     'comma-style': [2, 'last'],
     // enforce newline at the end of file, with no multiple empty lines
     'eol-last': 2,
-    // specify whether double or single quotes should be used in JSX attributes
-    'jsx-quotes': 2,
     // enforces spacing between keys and values in object literal properties
     'key-spacing': [2, {'beforeColon': false, 'afterColon': true}],
     // require a capital letter for constructors
@@ -28,7 +26,9 @@ module.exports = {
     'semi-spacing': [2, {'before': false, 'after': true}],
     // require spaces around operators
     'space-infix-ops': 2,
+    // require spaces following keywords
+    'space-after-keywords': 2,
     // warn when line length is greater than 80 characters
-    'max-len': [1, 80, 2]
+    'max-len': [1, 80, 2, { 'ignoreComments': true, 'ignoreUrls': true }]
   }
 }

@@ -2,5 +2,7 @@ module.exports = {
   'env': {
     'node': true
   },
-  'rules': {}
+  'rules': {
+    'no-console': 2
+  }
 };

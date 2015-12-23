@@ -4,7 +4,7 @@ module.exports = {
     'jest': true
   },
   rules: {
-    // Testing-specific rules here
+    'no-console': 0
   }
 };
 

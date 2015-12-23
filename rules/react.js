@@ -23,6 +23,8 @@ module.exports = {
     // Prevent missing React when using JSX
     'react/react-in-jsx-scope': 2,
     // Prevent missing parentheses around multilines JSX
-    'react/wrap-multilines': 2
+    'react/wrap-multilines': 2,
+    // specify whether double or single quotes should be used in JSX attributes
+    'jsx-quotes': 2
   }
 };

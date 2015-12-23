@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/trailsjs/eslint-config-trails/issues"
   },
-  "homepage": "https://github.com/trailsjs/eslint-config-trails",
-  "peerDependencies": {
-    "eslint": ">=1.0.0"
-  }
+  "homepage": "https://github.com/trailsjs/eslint-config-trails"
 }
