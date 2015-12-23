@@ -20,7 +20,7 @@ Install the default configuration package and `eslint` dependency:
 npm install --save-dev eslint-config-trails eslint
 ```
 
-Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
+Add the config to a `.eslintrc.json` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
 
 ```json
 {
@@ -38,7 +38,7 @@ Install the React.js configuration package and `eslint` dependency:
 npm install --save-dev eslint-config-trails eslint-plugin-react eslint
 ```
 
-Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
+Add the config to a `.eslintrc.json` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
 
 ```json
 {
@@ -50,7 +50,7 @@ Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.js
 
 A module for test-specific rules is available.
 
-Add the config to a `.eslintrc` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
+Add the config to a `.eslintrc.json` file or the `eslintConfig` object in `package.json` using the ESLint `extends` attribute:
 
 ```json
 {
