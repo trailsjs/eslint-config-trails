@@ -27,7 +27,7 @@ module.exports = {
     // require spaces around operators
     'space-infix-ops': 2,
     // require spaces following keywords
-    'space-after-keywords': 2,
+    'keyword-spacing': 2,
     // warn when line length is greater than 80 characters
     'max-len': [1, 80, 2, { 'ignoreComments': true, 'ignoreUrls': true }]
   }
