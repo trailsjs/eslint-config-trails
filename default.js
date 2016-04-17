@@ -4,6 +4,5 @@ module.exports = {
     './rules/es6.js',
     './rules/node.js',
     './rules/style.js'
-  ],
-  rules: {}
+  ]
 };

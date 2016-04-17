@@ -19,7 +19,7 @@
     "trails"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "default.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/trailsjs/eslint-config-trails.git"

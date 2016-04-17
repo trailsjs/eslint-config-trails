@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './index.js',
+    './default.js',
     './rules/test.js'
   ]
 };
