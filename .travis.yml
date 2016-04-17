@@ -3,6 +3,9 @@ node_js:
 - '4'
 - stable
 
+script:
+- npm run lint
+
 notifications:
   emails: false
 
