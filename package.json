@@ -1,24 +1,31 @@
 {
   "name": "eslint-config-trails",
-  "version": "1.0.4",
   "description": "Trails.js eslint config",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "test": "eslint . --debug"
+  "version": "1.0.4",
+  "bugs": {
+    "url": "https://github.com/trailsjs/eslint-config-trails/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/trailsjs/eslint-config-trails.git"
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.8.0"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://github.com/trailsjs/eslint-config-trails",
   "keywords": [
     "eslint",
     "eslintconfig",
     "trails"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/trailsjs/eslint-config-trails/issues"
+  "main": "default.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trailsjs/eslint-config-trails.git"
   },
-  "homepage": "https://github.com/trailsjs/eslint-config-trails"
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . --debug"
+  }
 }

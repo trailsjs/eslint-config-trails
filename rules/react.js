@@ -1,7 +1,9 @@
 module.exports = {
   'plugins': ['react'],
-  'ecmaFeatures': {
-    'jsx': true
+  'parserOptions': {
+    'ecmaFeatures': {
+      'jsx': true
+    }
   },
   'rules': {
     // Enforce boolean attributes notation in JSX

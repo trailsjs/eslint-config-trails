@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'eslint-config-trails/index',
-    'eslint-config-trails/rules/test'
+    './default.js',
+    './rules/test.js'
   ]
 };
