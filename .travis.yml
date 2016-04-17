@@ -6,9 +6,6 @@ node_js:
 notifications:
   emails: false
 
-before_install:
-- npm install eslint
-
 deploy:
   provider: npm
   email: hello@trailsjs.io
