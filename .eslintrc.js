@@ -1,5 +1,3 @@
-'use strict'
-
 module.exports = {
   env: {
     node: true
@@ -8,5 +6,5 @@ module.exports = {
   // unable to extends from a module inside of the .eslintrc file
   // Also avoids committing node_modules with a link to the modules
   // Ideal test would allow it to lint itself using its own rules
-  extends: 'eslint:recommended'
+  extends: './index.js'
 }
