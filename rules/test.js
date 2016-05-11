@@ -4,7 +4,8 @@ module.exports = {
     'jest': true
   },
   rules: {
-    'no-console': 0
+    'no-console': 0,
+    'max-len': [1, 160, 2, { 'ignoreComments': true, 'ignoreUrls': true, 'tabWidth': 2 }]
   }
 };
 

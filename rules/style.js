@@ -22,13 +22,15 @@ module.exports = {
     'no-unused-vars': [2, {'vars': 'local', 'args': 'none'}],
     // specify whether double or single quotes should be used
     'quotes': [2, 'single', 'avoid-escape'],
-    // enforce spacing before and after semicolons
-    'semi-spacing': [2, {'before': false, 'after': true}],
+    // enforce that semicolons are never used
+    'semi': [2, 'never'],
     // require spaces around operators
     'space-infix-ops': 2,
     // require spaces following keywords
     'keyword-spacing': 2,
     // warn when line length is greater than 80 characters
-    'max-len': [1, 100, 2, { 'ignoreComments': true, 'ignoreUrls': true }]
+    'max-len': [1, 100, 2, { 'ignoreComments': true, 'ignoreUrls': true, 'tabWidth': 2 }],
+    // 2-space indentation
+    'indent': ['error', 2]
   }
 }
