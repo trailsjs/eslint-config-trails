@@ -3,5 +3,10 @@ module.exports = {
     'eslint-config-trails/index',
     'eslint-config-trails/rules/react'
   ],
-  rules: {}
+  rules: { },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
+  }
 };
