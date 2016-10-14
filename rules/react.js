@@ -16,7 +16,7 @@ module.exports = {
     // Prevent variables used in JSX to be incorrectly marked as unused
     'react/jsx-uses-vars': 2,
     // Prevent usage of setState in componentDidMount
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': 2,
     // Prevent usage of setState in componentDidUpdate
     'react/no-did-update-set-state': 2,
     // Prevent usage of unknown DOM property
