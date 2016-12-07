@@ -9,6 +9,7 @@ module.exports = {
 
   },
   globals: {
+    // error types
     ConfigNotDefinedError: true,
     LoggerNotDefinedError: true,
     ApiNotDefinedError: true,
@@ -16,6 +17,12 @@ module.exports = {
     PackageNotDefinedError: true,
     IllegalAccessError: true,
     TimeoutError: true,
-    GraphCompletenessError: true
+    GraphCompletenessError: true,
+
+    // trails types
+    Service: true,
+    Controller: true,
+    Policy: true,
+    Model: true
   }
 };
