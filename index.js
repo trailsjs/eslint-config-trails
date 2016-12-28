@@ -18,6 +18,7 @@ module.exports = {
     IllegalAccessError: true,
     TimeoutError: true,
     GraphCompletenessError: true,
+    NamespaceConflictError: true,
 
     // trails types
     Service: true,
