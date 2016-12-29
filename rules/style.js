@@ -17,7 +17,7 @@ module.exports = {
     // disallow trailing whitespace at the end of lines
     'no-trailing-spaces': 2,
     // disallow dangling underscores in identifiers
-    'no-underscore-dangle': [2, { 'allowAfterThis': true, 'allow': [ '__' ] }],
+    'no-underscore-dangle': [2, { 'allowAfterThis': true, 'allow': [ '__', '_trails' ] }],
     // disallow declaration of variables that are not used in the code
     'no-unused-vars': [2, {'vars': 'local', 'args': 'none'}],
     // specify whether double or single quotes should be used
