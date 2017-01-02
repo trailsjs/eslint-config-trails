@@ -1,7 +1,9 @@
 language: node_js
 node_js:
-- '4'
-- stable
+- 4
+- 5
+- 6
+- 7
 
 notifications:
   emails: false
@@ -17,3 +19,4 @@ deploy:
   on:
     tags: true
     repo: trailsjs/eslint-config-trails
+    node: 6
