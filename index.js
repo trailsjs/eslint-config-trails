@@ -19,6 +19,7 @@ module.exports = {
     TimeoutError: true,
     GraphCompletenessError: true,
     NamespaceConflictError: true,
+    ValidationError: true,
 
     // trails types
     Service: true,
