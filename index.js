@@ -20,6 +20,7 @@ module.exports = {
     GraphCompletenessError: true,
     NamespaceConflictError: true,
     ValidationError: true,
+    TrailpackError: true,
 
     // trails types
     Service: true,
