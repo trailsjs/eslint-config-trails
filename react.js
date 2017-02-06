@@ -5,6 +5,7 @@ module.exports = {
   ],
   rules: { },
   parserOptions: {
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true
     }
