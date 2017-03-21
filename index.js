@@ -5,9 +5,6 @@ module.exports = {
     'eslint-config-trails/rules/style',
     'eslint-config-trails/rules/es6'
   ],
-  rules: {
-
-  },
   globals: {
     // error types
     ConfigNotDefinedError: true,
