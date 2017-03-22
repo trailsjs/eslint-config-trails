@@ -1,8 +1,6 @@
 module.exports = {
-  extends: [
-    'eslint-config-trails/index',
-    'eslint-config-trails/rules/react'
-  ],
+  extends: require.resolve('./'),
+
   rules: {
     'no-console': 1,
     'no-global-assign': 1
@@ -13,4 +11,4 @@ module.exports = {
       jsx: true
     }
   }
-};
+}
