@@ -6,7 +6,7 @@
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 
-The [sharable ESLint config](http://eslint.org/docs/developer-guide/shareable-configs.html) used in the trails.js projects.
+The [sharable ESLint config](http://eslint.org/docs/developer-guide/shareable-configs.html) used in the trails.js projects. This config is also included in newly generated Trails projects. We recommend that you use this config for consistency, but it is not required.
 
 ## Usage
 
@@ -55,6 +55,17 @@ Add the config to a `.eslintrc.json` file or the `eslintConfig` object in `packa
 ```json
 {
   "extends": "trails/test"
+}
+```
+
+
+### Config
+
+A couple minor rules are relaxed for the trails `config/` folder.
+
+```json
+{
+  "extends": "trails/config"
 }
 ```
 
