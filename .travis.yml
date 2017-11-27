@@ -5,7 +5,7 @@ node_js:
 - 9
 
 notifications:
-  emails: false
+  email: false
 
 deploy:
   provider: npm
